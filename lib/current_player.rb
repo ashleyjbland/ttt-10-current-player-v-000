@@ -4,6 +4,14 @@ def turn_count(board)
   board. count do |board|
     if board == "X" || board == "O"
       counter += 1
-    end 
+    end
+  end
+end
+
+def current_player(board)
+  if turn_count(board) % 2
+    puts "X"
+  else
+    "O"
   end
 end
