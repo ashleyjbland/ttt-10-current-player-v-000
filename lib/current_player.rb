@@ -1,5 +1,5 @@
 def turn_count(board)
-  board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   counter = 0
   board. count do |board|
     if board == "X" || board == "O"
